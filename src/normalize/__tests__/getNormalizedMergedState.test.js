@@ -776,6 +776,7 @@ describe('src | getNormalizedMergedState', () => {
         dossiers: [
           {
             id: 'A',
+            measurements: { stateKey: 'measurements', type: '__normalizer__' },
             sketches: { stateKey: 'sketches', type: '__normalizer__' },
           },
         ],
